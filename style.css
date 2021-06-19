@@ -5,7 +5,7 @@ body {
 }
 
 .google-logo {
-    max-height: 50%;
+    max-height: 100%;
     max-width: 100%;
     object-fit: contain;
     object-position: center bottom;
@@ -20,4 +20,10 @@ body {
     align-items:center;
     height:100%;
     margin-top:auto;
+}.header-container {
+    display:flex;
+    align-items:center;
+    padding:6px;
+    max-height: 500px;
+    height: calc(100% - 560px);
 }
