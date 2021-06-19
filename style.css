@@ -1,5 +1,23 @@
+body {
+    font-size: 14px;
+    font-family: arial,sans-serif;
+    color: #222;
+}
+
 .google-logo {
-    height: 56px;
-    aspect-ratio: auto 160 / 56;
-    width: 160px;
+    max-height: 50%;
+    max-width: 100%;
+    object-fit: contain;
+    object-position: center bottom;
+    width: auto;
+}.container{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}.logo-container {
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    height:100%;
+    margin-top:auto;
 }
