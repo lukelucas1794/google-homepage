@@ -3,10 +3,7 @@ body {
     font-family: arial,sans-serif;
     color: #222;
 }
-
 .google-logo {
-    max-height: 100%;
-    max-width: 100%;
     object-fit: contain;
     object-position: center bottom;
     width: auto;
@@ -22,8 +19,24 @@ body {
     margin-top:auto;
 }.header-container {
     display:flex;
-    align-items:center;
     padding:6px;
-    max-height: 500px;
+    justify-content: flex-end;
+    max-height: 290px;
     height: calc(100% - 560px);
+}.main-nav{
+    display:flex;
+    flex-direction: row;
+}.search-field {
+    background: #fff;
+    display: flex;
+    border: 1px solid #dfe1e5;
+    box-shadow: none;
+    border-radius: 24px;
+    z-index: 3;
+    height: 44px;
+    margin: 0 auto;
+    width: auto;
+    max-width: 584px;
+    
+    
 }
