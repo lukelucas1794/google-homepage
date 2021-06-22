@@ -185,32 +185,26 @@ a:link {
     color: #9aa0a6;
     height: 20px;
     width: 20px;
+    padding-left: 15px;
+    margin-top: 10px;
   }.speak-button{
     margin-top: 3px;
     color: #9aa0a6;
     height: 20px;
     width: 20px;
+    padding-right: 15px;
+    margin-top: 10px;
   }.search-field{
     -webkit-border-radius: 20px;
     -moz-border-radius: 20px;
-     
-     
-     
-    
-     
      padding-left: 10px;
-     
      background: #fff;
-     
      border: 1px solid #dfe1e5;
      box-shadow: none;
      border-radius: 100px;
-     
      height: 44px;
+     
      margin: 0 auto;
-     
-     
- }
   }
 
 
