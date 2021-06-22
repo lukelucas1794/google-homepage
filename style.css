@@ -8,7 +8,8 @@ justify-content: space-between;
 }
 .container{
     
-    
+padding: 10px;
+
 display: flex;
 flex-direction: column;
 justify-content: flex-start;
@@ -19,6 +20,7 @@ justify-content: flex-start;
     justify-self: flex-start;
     flex-shrink: 0;
     box-sizing: border-box;
+    padd
 }.main-nav {
     display: flex;
     align-self: flex-end;
@@ -66,8 +68,6 @@ justify-content: flex-start;
    font-size: 15px;
    color: rgba(0,0,0,.54);
    
-    
-}
     
 }.gmail-nav, .images-nav, .apps-nav, .sign-nav{
     display: flex;
@@ -125,11 +125,11 @@ width: 100%;
 
 
 a:link {
-    text-decoration: none;
+    
   }
   
   a:visited {
-    text-decoration: none;
+    
   }
   
   a:hover {
@@ -138,6 +138,79 @@ a:link {
   
   a:active {
     text-decoration: underline;
+  }button{
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+  }.gmail-nav, .images-nav{
+    font: 13px/27px Roboto,RobotoDraft,Arial,sans-serif;
+    padding-left: 15px;
+    padding-top: 6px;
+    display: inline-block;
+  }.images-nav{
+    display: inline-block;
+      padding-right: 15px;
+  }.sign-nav img{
+    background-size: 32px 32px;
+    border: 0;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    display: block;
+    margin: 0;
+    position: relative;
+    height: 32px;
+    width: 32px;
+    z-index: 0;
+    padding: 4px;
+    display: inline-block;
+  }.apps-nav{
+      padding: 8px;
+      display: inline-block;
+      color: #5f6368;
+    opacity: 1;
+  }.magnify-button{
+    
+    margin-top: 3px;
+    color: #9aa0a6;
+    height: 20px;
+    width: 20px;
+  }.speak-button{
+    margin-top: 3px;
+    color: #9aa0a6;
+    height: 20px;
+    width: 20px;
+  }.search-field{
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+     
+     
+     
+    
+     
+     padding-left: 10px;
+     
+     background: #fff;
+     
+     border: 1px solid #dfe1e5;
+     box-shadow: none;
+     border-radius: 100px;
+     
+     height: 44px;
+     margin: 0 auto;
+     
+     
+ }
   }
 
 
