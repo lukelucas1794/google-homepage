@@ -44,7 +44,7 @@ justify-content: flex-start;
     margin: auto;
 }.searchfield-container{
     width: 100%;
-    padding: 20px;
+    padding-top: 20px;
 }.logo-button-container{
     align-self: center;
     width: 50%;
@@ -76,13 +76,14 @@ justify-content: flex-start;
 }.footer-group1{
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
-    width: 50%;
+    
+    
     
 }.footer-group2{
     display: flex;
-    justify-content: space-around;
-    width: 50%;
+    
+    
+    justify-content: flex-end;
     flex-direction: row;
 }.magnify-button{
     z-index: 1;
@@ -110,17 +111,21 @@ width: 100%;
     flex-direction: row;
     justify-content: center;
     padding: 20px;
+    
 }.location{
     padding: 15px 30px;
     border-bottom: 1px solid #dadce0;
     font-size: 15px;
     color: rgba(0,0,0,.54);
+    font: 14px Roboto,RobotoDraft,Arial,sans-serif;
 }.middle-container{
     display: flex;
     flex-direction: row;
     width: 100%;
     justify-content: center;
-    margin-bottom: 24px;
+    margin-bottom: 45px;
+    margin-top: -8px;
+    font: 13px/27px Roboto,RobotoDraft,Arial,sans-serif;
 }
 
 
@@ -153,6 +158,7 @@ a:link {
     text-align: center;
     cursor: pointer;
     user-select: none;
+    
   }.gmail-nav, .images-nav{
     font: 13px/27px Roboto,RobotoDraft,Arial,sans-serif;
     padding-left: 15px;
@@ -203,8 +209,21 @@ a:link {
      box-shadow: none;
      border-radius: 100px;
      height: 44px;
-     
      margin: 0 auto;
+  }.language-container{
+    padding-right: 5px;
+    padding-left: 5px;
+  }.googlesearch-button, .feelinglucky-button{
+    padding-right: 16px;
+    padding-left: 16px;
+    margin-right: 8px;
+  }.feelinglucky-button{
+    margin-left: 8px;
+  }.group1, .group2{
+    display: block;
+    padding-left: 30px;
+    white-space: nowrap;
+    font: 14px Roboto,RobotoDraft,Arial,sans-serif;
   }
 
 
