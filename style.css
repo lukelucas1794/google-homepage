@@ -239,7 +239,29 @@ a:link {
     
   }.feelinglucky-button:hover{
     box-shadow: 0 0 5px rgba(33,33,33, .4);
-  }
+  }.dropdown {
+    position: relative;   
+}
+
+/* Hide the dropdown's content by default */
+.dropdown__content {
+    display: none;
+
+    /* Position it right below the trigger element */
+    left: 0;
+    padding-Top: 4px;
+    position: absolute;
+    top: 100%;
+
+    /* It should be on the top of other elements */
+    background-color: #FFF;
+    zIndex: 9999;
+
+    /* Size */
+    height: 200px;
+    width: 200px;
+}
+  
 
 
 
