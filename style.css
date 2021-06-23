@@ -241,25 +241,69 @@ a:link {
     box-shadow: 0 0 5px rgba(33,33,33, .4);
   }.dropdown {
     position: relative;   
+
+}.dropdown:hover, .gmail-nav:hover, .images-nav:hover, .sign-nav:hover{
+  cursor: pointer;
+  
+}.dropdown__content {
+    display: none;
+    right: -35px;
+    top: 50px;
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    z-Index: 9999;
+    height: 350px;
+    width: 330px;
+    box-shadow: 0 0 6px rgba(33,33,33, .5);
+    border-radius: 3%;
+}.cards {
+  display: flex;
+
+  /* Put a card in the next row when previous cards take all width */
+  flex-wrap: wrap;
+ width: 340px;
+ 
+  
 }
 
-/* Hide the dropdown's content by default */
-.dropdown__content {
-    display: none;
-
-    /* Position it right below the trigger element */
-    left: 0;
-    padding-Top: 4px;
-    position: absolute;
-    top: 100%;
-
-    /* It should be on the top of other elements */
-    background-color: #FFF;
-    zIndex: 9999;
-
-    /* Size */
-    height: 200px;
-    width: 200px;
+.cards__item {
+  /* There will be 4 cards per row */
+  flex-basis: 25%;
+  margin-top: 20px;
+  margin-left: 20px;
+  height: 90px;
+  border-radius: 8%;
+  
+}.iconsize {
+  margin-left: 28%;
+  margin-top: 20%;
+  font-size: 38px;
+  
+  
+}.textstyle{
+  text-align: center;
+  font-size: 14px;
+  font-family: 'Google Sans',Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
+}.cards__item:hover {
+  background-color: rgb(66 133 244 / 15%);
+}.fa-google {
+  background: conic-gradient(from -45deg, #ea4335 110deg, #4285f4 90deg 180deg, #34a853 180deg 270deg, #fbbc05 270deg) 73% 55%/150% 150% no-repeat;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+}.googlecolor {
+  background: conic-gradient(from -45deg, #ea4335 110deg, #4285f4 90deg 180deg, #34a853 180deg 270deg, #fbbc05 270deg) 73% 55%/150% 150% no-repeat;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+  
+}.sign-nav:hover, .apps-nav:hover{
+  background-color: rgb(218, 218, 218);
+  border-radius: 50%;
+}.mypointer:hover{
+  cursor: pointer;
 }
   
 

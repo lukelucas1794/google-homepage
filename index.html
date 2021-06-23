@@ -1,20 +1,77 @@
 <html lang="en">
     <head>
-        <script src="myscript.js"></script> 
+        <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+        <script src="myscript.js">
+          
+        </script> 
+       
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet">
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/all.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link rel="stylesheet" href="style.css">
     </head>
-    <body>
+    <body id="trigger">
         
     <div class="container"> 
         <div class="header-container">
             <div class="main-nav">
                 <div class="gmail-nav"><a>Gmail</a></div> 
                 <div class="images-nav"><a>Images</a></div>     
-                <div class="dropdown" onclick="myFunction()"><div class="apps-nav" ><span class="material-icons" >apps</span></div>
+                <div class="dropdown" id="dropdown_click"><div class="apps-nav" ><span class="material-icons" >apps</span></div>
                 <div class="dropdown__content" id="dropdown_content">
-                    sdsdsdsdsds
+                    <div class="cards">
+                        <!-- A card with given width -->
+                        <div class="cards__item">
+                            <span><img class="iconsize" style="border-radius: 50%; height: 38px;" src="https://lh3.googleusercontent.com/ogw/ADea4I7xGTQDfZMBLQGQ18bDC_mg7Poru4c4s9ytBSGg8w=s32-c-mo">
+                            </span>
+                            <p class="textstyle" style="padding-bottom: 20px;" >Account</p>
+                        </div>
+                        <div class="cards__item">
+                            <span class="fab fa-google iconsize" >
+
+                            </span>
+                            <p class="textstyle" >Search</p>
+
+                        </div>
+                        <div class="cards__item">
+                            <span class="material-icons googlecolor iconsize">
+                                    location_on
+                            </span>
+                            <p class="textstyle" >Maps</p>
+                        </div>
+                        <div class="cards__item">
+                            <span class="fab fa-youtube iconsize" style="color: red;margin-left: 25%;">
+                            </span>
+                            <p class="textstyle" >YouTube</p>
+                        </div>
+                        <div class="cards__item">
+                            <span class="fab fa-google-play googlecolor iconsize" style="color: rgb(255, 0, 0);margin-left: 25%;">
+                            </span>
+                            <p class="textstyle" >Play</p>
+                        </div>
+                        <div class="cards__item">
+                            <span class="fa fa-file-text-o iconsize" style="color: hsl(207, 99%, 39%);margin-left: 30%;">
+                            </span>
+                            <p class="textstyle" >Docs</p>
+                        </div>
+                        <div class="cards__item">
+                            <span class="fa fa-google-plus iconsize googlecolor" style="margin-left: 30%;">
+                            </span>
+                            <p class="textstyle" >PDF</p>
+                        </div>
+                        <div class="cards__item">
+                            <span class="fa fa-file-pdf-o iconsize" style="color: hsl(350, 99%, 39%);margin-left: 30%;">
+                            </span>
+                            <p class="textstyle" >PDF</p>
+                        </div>
+                        <div class="cards__item">
+                            <span class="fa fa-file-text-o iconsize" style="color: hsl(271, 99%, 39%);margin-left: 30%;">
+                            </span>
+                            <p class="textstyle" >Forms</p>
+                        </div>
+                
+                    </div>
                     </div>
                 </div>
                 <div class="sign-nav" ><img src="https://lh3.googleusercontent.com/ogw/ADea4I7xGTQDfZMBLQGQ18bDC_mg7Poru4c4s9ytBSGg8w=s32-c-mo"></div>
@@ -33,18 +90,18 @@
         <div class="searchfield-container">
             <div class="searchfield">
                 <div class="textfield"><input class="search-field" type="text" ></div>
-                <div class="magnify-button"><span class="material-icons">search</span></div>
-                <div class="speak-button"><span class="material-icons">mic</span></div>
+                <div class="magnify-button mypointer"><span class="material-icons">search</span></div>
+                <div class="speak-button mypointer"><span class="material-icons">mic</span></div>
             </div>
         </div>
         <div class="button-container">
             <button class="googlesearch-button">Google Search</button>
-            <button class="feelinglucky-button">Im Feeling Lucky</button>
+            <button class="feelinglucky-button">I'm Feeling Lucky</button>
         </div>
         <div class="middle-container">
             <div class="language-container">Google Offered in: </div>
-            <div class="language-container"><a style="color: #1a0dab;">Filipino</a></div>
-            <div class="language-container"><a style="color: #1a0dab;">Cebuano</a></div>
+            <div class="language-container mypointer"><a style="color: #1a0dab;">Filipino</a></div>
+            <div class="language-container mypointer"><a style="color: #1a0dab;">Cebuano</a></div>
       </div>
     </div>
 </div>
@@ -52,19 +109,19 @@
     
     <div class="container2">
         <div class="language-container">
-            <div class="location"><a>Philippines</a></div>
+            <div class="location mypointer"><a>Philippines</a></div>
         </div>
         <div class="footer-container">
         <div class="footer-group1">
-            <div class="group1" style="padding-left: 10px;"><a>About</a></div>
-            <div class="group1"><a>Advertising</a></div>
-            <div class="group1"><a>Business</a></div>
-            <div class="group1"><a>How Search Works</a></div>
+            <div class="group1 mypointer" style="padding-left: 10px;"><a>About</a></div>
+            <div class="group1 mypointer"><a>Advertising</a></div>
+            <div class="group1 mypointer"><a>Business</a></div>
+            <div class="group1 mypointer"><a>How Search Works</a></div>
         </div>
         <div class="footer-group2">
-            <div class="group2"><a>Privacy</a></div>
-            <div class="group2"><a>Terms</a></div>
-            <div class="group2"><a>Settings</a></div>
+            <div class="group2 mypointer"><a>Privacy</a></div>
+            <div class="group2 mypointer"><a>Terms</a></div>
+            <div class="group2 mypointer"><a>Settings</a></div>
         </div>
         </div>
     </div>
