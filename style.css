@@ -304,7 +304,18 @@ a:link {
   border-radius: 50%;
 }.mypointer:hover{
   cursor: pointer;
+}@media (max-width: 450px) { 
+  .logo-button-container {
+    width: 85%;
+  }.footer-container{
+    flex-direction: column;
+  }.footer-group1{
+    justify-content: center;
+  }.footer-group2{
+    justify-content: center;
+  }
 }
+
   
 
 
