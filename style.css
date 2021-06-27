@@ -1,45 +1,34 @@
 html,body{
-    height: 100%;
-    margin: 0;
-    overflow: hidden;
-display: flex;
-flex-direction: column;
-justify-content: space-between;
+  height: 100%;
+  margin: 0;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 .container{
-    
-padding: 10px;
-
-display: flex;
-flex-direction: column;
-justify-content: flex-start;
-
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
 }.header-container{
-    display: flex;
-    align-self: flex-end;
-    justify-self: flex-start;
-    flex-shrink: 0;
-    box-sizing: border-box;
-    
+  display: flex;
+  align-self: flex-end;
+  justify-self: flex-start;
+  flex-shrink: 0;
+  box-sizing: border-box;
 }.main-nav {
-    display: flex;
-    align-self: flex-end;
-    flex-direction: row;
-    
-    
+  display: flex;
+  align-self: flex-end;
+  flex-direction: row;
 }.logo-container{
-    align-self: center;
-    
-   
-    
+  align-self: center;
 }.google-logo{
-    
-    margin: auto;
-    display: block;
-   
+  margin: auto;
+  display: block;
 }.search-container{
-    align-self: center;
-    width: auto;
+  align-self: center;
+  width: auto;
     max-width: 584px;
     margin: auto;
 }.searchfield-container{
@@ -49,16 +38,10 @@ justify-content: flex-start;
     align-self: center;
     width: 50%;
     margin: auto;
-    
 }.container2{
-    
     display: flex;
     flex-direction: column;
     background: #f2f2f2;
-    
-}.language-container{
-    
-   
 }.footer-container{
    display: flex;
    flex-direction: row;
@@ -67,8 +50,6 @@ justify-content: flex-start;
    border-bottom: 1px solid #dadce0;
    font-size: 15px;
    color: rgba(0,0,0,.54);
-   
-    
 }.gmail-nav, .images-nav, .apps-nav, .sign-nav{
     display: flex;
     padding-right: 5px;
@@ -76,26 +57,19 @@ justify-content: flex-start;
 }.footer-group1{
     display: flex;
     flex-direction: row;
-    
-    
-    
 }.footer-group2{
     display: flex;
-    
-    
     justify-content: flex-end;
     flex-direction: row;
 }.magnify-button{
     z-index: 1;
     position: absolute;
-  
 }.speak-button{
 z-index: 1;
 position: absolute;
 align-self: flex-end;
 }.search-field{
 width: 100%;
-
 }.searchfield{
     width: 100%;
     display: flex;
@@ -103,13 +77,11 @@ width: 100%;
     justify-content: space-between;
     z-index: -1;
     margin: auto;
-    
 }.button-container{
     display: flex;
     flex-direction: row;
     justify-content: center;
     padding: 20px;
-    
 }.location{
     padding: 15px 30px;
     border-bottom: 1px solid #dadce0;
@@ -124,12 +96,9 @@ width: 100%;
     margin-bottom: 45px;
     margin-top: -8px;
     font: 13px/27px Roboto,RobotoDraft,Arial,sans-serif;
-}
-  a:hover {
+}a:hover {
     text-decoration: underline;
-  }
-  
-  a:active {
+  }a:active {
     text-decoration: underline;
   }button{
     background-color: #f8f9fa;
@@ -146,7 +115,6 @@ width: 100%;
     text-align: center;
     cursor: pointer;
     user-select: none;
-    
   }.gmail-nav, .images-nav{
     font: 13px/27px Roboto,RobotoDraft,Arial,sans-serif;
     padding-left: 15px;
@@ -174,7 +142,6 @@ width: 100%;
       color: #5f6368;
     opacity: 1;
   }.magnify-button{
-    
     margin-top: 3px;
     color: #9aa0a6;
     height: 20px;
@@ -200,8 +167,7 @@ width: 100%;
      margin: 0 auto;
      box-sizing: border-box;
     padding-left: 45px;
-    font: 400 13.3333px Arial;
-    
+    font: 400 13.3333px Arial;  
   }.language-container{
     padding-right: 5px;
     padding-left: 5px;
@@ -209,7 +175,6 @@ width: 100%;
     padding-right: 16px;
     padding-left: 16px;
     margin-right: 8px;
-    
   }.feelinglucky-button{
     margin-left: 8px;
   }.group1, .group2{
@@ -223,16 +188,12 @@ width: 100%;
     outline: none;
   }.googlesearch-button:hover{
     box-shadow: 0 0 5px rgba(33,33,33, .4);
-    
-    
   }.feelinglucky-button:hover{
     box-shadow: 0 0 5px rgba(33,33,33, .4);
   }.dropdown {
-    position: relative;   
-
+    position: relative;  
 }.dropdown:hover, .gmail-nav:hover, .images-nav:hover, .sign-nav:hover{
   cursor: pointer;
-  
 }.dropdown__content {
     display: none;
     right: -35px;
@@ -246,28 +207,18 @@ width: 100%;
     border-radius: 3%;
 }.cards {
   display: flex;
-
- 
   flex-wrap: wrap;
  width: 340px;
- 
-  
-}
-
-.cards__item {
-  
+}.cards__item {
   flex-basis: 25%;
   margin-top: 20px;
   margin-left: 20px;
   height: 90px;
   border-radius: 8%;
-  
 }.iconsize {
   margin-left: 28%;
   margin-top: 20%;
   font-size: 38px;
-  
-  
 }.textstyle{
   text-align: center;
   font-size: 14px;
@@ -286,7 +237,6 @@ width: 100%;
   background-clip: text;
   color: transparent;
   -webkit-text-fill-color: transparent;
-  
 }.sign-nav:hover, .apps-nav:hover{
   background-color: rgb(218, 218, 218);
   border-radius: 50%;
@@ -297,16 +247,12 @@ width: 100%;
     align-self: center;
     width: 80%;
     margin: auto;
-    
   }.footer-container{
     flex-direction: column;
-    
   }.footer-group1{
-    
     align-content: flex-start !important;
-flex-wrap: wrap;
+    flex-wrap: wrap;
     padding-right: 10%;
-   
   }.footer-group2{
     margin-left: -20%;
     padding-right: 15%;
@@ -322,20 +268,16 @@ flex-wrap: wrap;
     align-self: center;
     width: 80%;
     margin: auto;
-    
   }.logo-button-container button {
     font-size: 11px !important;
   }.button-container {
     padding: 0px;
   }.footer-container{
     flex-direction: column;
-    
   }.footer-group1{
-    
     align-content: flex-start !important;
-flex-wrap: wrap;
+    flex-wrap: wrap;
     padding-left: 10%;
-   
   }.footer-group2{
     margin-left: -20%;
     padding-right: 22%;
@@ -347,30 +289,20 @@ flex-wrap: wrap;
     align-self: center;
     width: 80%;
     margin: auto;
-    
   }.logo-button-container button {
     font-size: 11px !important;
   }.button-container {
     padding: 0px;
   }.footer-container{
     flex-direction: column;
-    
   }.footer-group1{
-    
     align-content: flex-start !important;
-flex-wrap: wrap;
+    flex-wrap: wrap;
     padding-left: 17%;
-   
   }.footer-group2{
     margin-left: -20%;
     padding-right: 22%;
   }.specialgroup1{
     padding-left: 20%;
   }
-
-
-  
-
-
-
 }
