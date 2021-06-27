@@ -20,7 +20,7 @@ justify-content: flex-start;
     justify-self: flex-start;
     flex-shrink: 0;
     box-sizing: border-box;
-    padd
+    
 }.main-nav {
     display: flex;
     align-self: flex-end;
@@ -104,8 +104,6 @@ width: 100%;
     z-index: -1;
     margin: auto;
     
-}.googlesearch-button{
-
 }.button-container{
     display: flex;
     flex-direction: row;
@@ -127,16 +125,6 @@ width: 100%;
     margin-top: -8px;
     font: 13px/27px Roboto,RobotoDraft,Arial,sans-serif;
 }
-
-
-a:link {
-    
-  }
-  
-  a:visited {
-    
-  }
-  
   a:hover {
     text-decoration: underline;
   }
@@ -329,7 +317,7 @@ flex-wrap: wrap;
   }.specialgroup1{
     padding-left: 70px;
   }
-} @media only screen and (min-width: 321px) and (max-width: 375px)  {
+} @media only screen and (min-width: 321px) and (max-width: 600px)  {
   .logo-button-container {
     align-self: center;
     width: 80%;
@@ -354,7 +342,7 @@ flex-wrap: wrap;
   }.specialgroup1{
     padding-left: 20%;
   }
-}@media only screen and (min-width: 375px) and (max-width: 1000px)  {
+}@media only screen and (min-width: 375px) and (max-width: 500px)  {
   .logo-button-container {
     align-self: center;
     width: 80%;
